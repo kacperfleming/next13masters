@@ -10,10 +10,10 @@ export default function Home() {
 							</div>
 							<div>
 								<div>
-									<h3 role="heading"></h3>
-									<p></p>
+									<h3 role="heading">Testowy produkt 1</h3>
+									<p>9,99zł</p>
 								</div>
-								<p></p>
+								<p>To jest testowy produkt</p>
 							</div>
 						</article>
 					</li>
@@ -24,10 +24,10 @@ export default function Home() {
 							</div>
 							<div>
 								<div>
-									<h3 role="heading"></h3>
-									<p></p>
+									<h3 role="heading">Testowy produkt 2</h3>
+									<p>9,99zł</p>
 								</div>
-								<p></p>
+								<p>To jest testowy produkt</p>
 							</div>
 						</article>
 					</li>
@@ -38,10 +38,10 @@ export default function Home() {
 							</div>
 							<div>
 								<div>
-									<h3 role="heading"></h3>
-									<p></p>
+									<h3 role="heading">Testowy produkt 3</h3>
+									<p>9,99zł</p>
 								</div>
-								<p></p>
+								<p>To jest testowy produkt</p>
 							</div>
 						</article>
 					</li>
@@ -52,10 +52,10 @@ export default function Home() {
 							</div>
 							<div>
 								<div>
-									<h3 role="heading"></h3>
-									<p></p>
+									<h3 role="heading">Testowy produkt 4</h3>
+									<p>9,99zł</p>
 								</div>
-								<p></p>
+								<p>To jest testowy produkt</p>
 							</div>
 						</article>
 					</li>
