@@ -18,9 +18,14 @@ export const generateMetadata = async ({ params }: IProductProps): Promise<Metad
 };
 
 const Product: FC<IProductProps> = async ({ params }) => {
-	const { title } = await getProductById(params.productId);
+	const { title, description } = await getProductById(params.productId);
 
-	return <h1>{title}</h1>;
+	return (
+		<div>
+			<h1>{title}</h1>
+			<p>{description}</p>
+		</div>
+	);
 };
 
 export default Product;
