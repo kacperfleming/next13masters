@@ -11,7 +11,7 @@ const ProductsLayout: FC<PropsWithChildren> = async ({ children }) => {
 	return (
 		<div>
 			{children}
-			<div role="pagination">
+			<div aria-label="pagination">
 				{Array.from({ length: data.length / 5 }, (v, i) => i + 1).map((page) => (
 					<ActiveLink key={page} role="link" href={`/products/${page}`}>
 						{page}
