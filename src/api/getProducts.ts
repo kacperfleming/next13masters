@@ -1,6 +1,6 @@
 import { type IProductData } from "./getProductById";
 
-export const getProducts = async (page: number): Promise<IProductData[]> =>
+export const getProducts = async (): Promise<IProductData[]> =>
 	(
-		await fetch(`https://naszsklep-api.vercel.app/api/products?take=20&offset=${page}`)
+		await fetch(`https://naszsklep-api.vercel.app/api/products`)
 	).json() as unknown as IProductData[];
